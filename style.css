@@ -1,0 +1,94 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+.desc{
+    margin-top: 100px;
+}
+
+.desc .flex{
+    flex-wrap: wrap;
+}
+
+.desc .card{
+   
+    margin: 18px 10px 40px;
+    transition: transform 0.3s ease-in;
+
+}
+
+.title{
+    font-size: 35px;
+    margin-bottom: 6px;
+
+}
+
+.subtitle{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(244, 143, 49);
+}
+
+.amt{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.desc .card:hover{
+    transform: translateY(-15px);
+
+}
+
+.desc2{
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgb(244, 143, 49);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: rgb(250, 174, 103);
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+   
+}
+
+
+.card{
+    background-color:  #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 8px 5px rgba(149, 147, 147, 0.5);
+    padding: 20px 25px;
+    margin: 10px;
+    width: 320px;
+    height: 380px;
+
+}
